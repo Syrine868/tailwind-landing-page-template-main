@@ -38,6 +38,12 @@ function App() {
   return (
     <>
       <Switch>
+
+
+        <Route exact path="/">
+          <Home />
+        </Route>
+
         <Route exact path="/">
           <Home />
         </Route>
